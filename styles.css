@@ -178,7 +178,29 @@ aside{
 }
 
 
+/*Diseño de Marca*/
+
+.enredos{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
 
 
+.diseño1{
+    width: 500px;
+    height: 400px;
+    float: left;
+}
 
+
+.diseño2{
+    width: 500px;
+    height: 400px;
+    float: right;
+}
+
+.app {
+    width:300px;
+}
 
