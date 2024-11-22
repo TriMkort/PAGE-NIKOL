@@ -38,14 +38,21 @@ nav {
 
 /*Menu*/
 
+.logo{
+    float: left;
+    margin-right: 30px;
+
+}
+
 .menu li {
     margin: 0 15px;
+    padding: 20px;
 }
 
 .menu li a {
     color: rgb(0, 0, 0);
     text-decoration: none;
-    padding: 15px 0;
+    padding: 20px;
     display: block;
 }
 
@@ -155,29 +162,33 @@ footer {
     background-color: #0D2C27;
     color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 15px;
 }
 
-footer a {
-    margin: 0 10px;
-    height: 190px;
-}
 
-footer img {
-    width: 24px;
-    height: 24px;
+.redes{
+    width: 100px;
+    height: 100px;
+    margin-left: 300px;
+    float: left;
+    
 }
 
 
 /* Contacto.html*/
 
-info{
+#info{
+    padding: 30px;
     height: 300px;
+    width: 45%;
+    text-align: justify;
+    display: inline-block;
+
 }
 
 aside{
     float: left;
-    width: 20%;
+    width: 45%;
     background-color: #7BB38C;
     min-height: 500px;
     padding-left: 10px;
@@ -186,6 +197,26 @@ aside{
 
 }
 
+form{
+    padding: 50px;
+}
+
+input{
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+#descripcion{
+    height: 300px;
+    text-align: top;
+}
+
+#enviar{
+    width: 150px;
+    height: 29px;
+    text-align: center;
+    margin-left: 200px;
+}
 
 /*Diseño de Marca*/
 
