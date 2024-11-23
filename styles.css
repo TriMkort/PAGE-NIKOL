@@ -2,6 +2,7 @@
 * {box-sizing:border-box}
 
 
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -20,74 +21,68 @@ nav {
     color: white;
 }
 
+.menu {
+    background-color: white;
+    list-style: none;
+    padding: 0;
+    margin: 1px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    border: #333;
+}
 
 .programas{
-    width: 100%;
+    width: 300px;
     height: 300px;
     display:block;
     text-align: center;
     overflow-x: auto;
-}
-
-.iconos{
-    width: 100px;
-    display: flex;
-    margin: 20px;
-    margin-left: 300px;
+    float: left;
 }
 
 /*Menu*/
 
 .logo{
-    width: 120px;
-    height: max-content;
-    padding-top: 40px;
-    margin-right: 290px;
-}
+    float: left;
+    margin-right: 30px;
 
-.index{
-    margin-top: 50px;
-    
-}
-.menu {
-    background-color: white;
-    height: 100px;
-    margin-bottom:  30px;
-    list-style: none;
-    display: flex;
-    border: #333;
 }
 
 .menu li {
     margin: 0 15px;
-    padding: 0%;
+    padding: 20px;
 }
 
 .menu li a {
     color: rgb(0, 0, 0);
-    width: 130px;
     text-decoration: none;
-    text-align: center;
-    margin-left: 30px;
+    padding: 20px;
     display: block;
 }
 
 .menu li a:hover {
     background-color: #7BB38C;
-    height: max-content;
 }
 
+li img{
+    width: 100%;
+    height: 50px;
+    
+}
 
 .despliegue_abajo{
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
 }
 
 .despliegue_abajo a{
     color:black;
-    padding: 12px 1px;
+    padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
@@ -101,42 +96,37 @@ li:hover .despliegue_abajo{
     display: block;
 }
 
-/* Body index */
+/* index */
 
 
 .portada img {
     width: 100%;
-    height: 470px;
+    height: 500px;
 }
 
 .contenido {
-    display:flex;
+    display: flex;
     padding: 20px;
-    height: 400px;
 }
 
 .columna {
-    width: 700px;
-    text-align: justify;
+    flex: 1;
     padding: 0 20px;
-
 }
 
 .columna h1{
-    width: 200px;
+    width: 700px;
 }
 
-
-.imagen{
-    width: 50%;
-    height: 100%;
-    
-}
 .imagenes{
+    display:none;
+}
+
+.galeria {
     width: 550px;
-    text-align: center;
+    position: relative;
     height: 250px;
-    background-color: #5a5753;
+    background-color: #D4B080;
 }
 
 .galeria img {
@@ -147,7 +137,7 @@ li:hover .despliegue_abajo{
 
 
 .cajapunto {
-    display: none;
+    text-align:center;
 }
 
 .punto {
@@ -207,7 +197,7 @@ footer {
 aside{
     float: left;
     width: 45%;
-    background-color: white;
+    background-color: #7BB38C;
     min-height: 500px;
     padding-left: 10px;
     padding-right: 10px;
