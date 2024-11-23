@@ -24,7 +24,7 @@ nav {
 .menu {
     background-color: white;
     list-style: none;
-    padding: 0;
+    padding: 10;
     margin: 1px;
     margin-top: 5px;
     display: flex;
@@ -44,9 +44,10 @@ nav {
 /*Menu*/
 
 .logo{
-    float: left;
-    margin-right: 30px;
-
+    width: 120px;
+    height: max-content;
+    padding-top: 40px;
+    margin-right: 290px;
 }
 
 .menu li {
@@ -57,19 +58,15 @@ nav {
 .menu li a {
     color: rgb(0, 0, 0);
     text-decoration: none;
-    padding: 20px;
+    padding: 40px;
     display: block;
 }
 
 .menu li a:hover {
     background-color: #7BB38C;
+
 }
 
-li img{
-    width: 100%;
-    height: 50px;
-    
-}
 
 .despliegue_abajo{
     display: none;
@@ -96,7 +93,7 @@ li:hover .despliegue_abajo{
     display: block;
 }
 
-/* index */
+/* Body index */
 
 
 .portada img {
