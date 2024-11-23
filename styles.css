@@ -21,6 +21,7 @@ nav {
     color: white;
 }
 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 <<<<<<< Updated upstream
@@ -34,20 +35,26 @@ nav {
     padding: 10;
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 07464ec (cambio index imagenes)
 .menu {
     background-color: white;
     list-style: none;
     padding: 0;
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 >>>>>>> parent of 07464ec (cambio index imagenes)
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 07464ec (cambio index imagenes)
     margin: 1px;
     margin-top: 5px;
     display: flex;
     justify-content: flex-end;
     border: #333;
 }
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 <<<<<<< HEAD
@@ -56,6 +63,8 @@ nav {
 >>>>>>> parent of 07464ec (cambio index imagenes)
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 07464ec (cambio index imagenes)
 
 .programas{
     width: 300px;
@@ -69,6 +78,7 @@ nav {
 /*Menu*/
 
 .logo{
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     float: left;
     margin-right: 30px;
@@ -103,6 +113,11 @@ nav {
 >>>>>>> parent of 07464ec (cambio index imagenes)
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
+=======
+    float: left;
+    margin-right: 30px;
+
+>>>>>>> parent of 07464ec (cambio index imagenes)
 }
 
 .menu li {
@@ -113,6 +128,7 @@ nav {
 .menu li a {
     color: rgb(0, 0, 0);
     text-decoration: none;
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     padding: 20px;
 =======
@@ -132,11 +148,15 @@ nav {
 >>>>>>> parent of 07464ec (cambio index imagenes)
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
+=======
+    padding: 20px;
+>>>>>>> parent of 07464ec (cambio index imagenes)
     display: block;
 }
 
 .menu li a:hover {
     background-color: #7BB38C;
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 <<<<<<< Updated upstream
@@ -152,6 +172,8 @@ nav {
 >>>>>>> parent of 07464ec (cambio index imagenes)
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 07464ec (cambio index imagenes)
 }
 
 li img{
