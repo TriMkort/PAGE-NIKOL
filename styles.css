@@ -21,16 +21,41 @@ nav {
     color: white;
 }
 
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+.menu {
+    background-color: white;
+    list-style: none;
+    padding: 10;
+=======
+>>>>>>> Stashed changes
 .menu {
     background-color: white;
     list-style: none;
     padding: 0;
+<<<<<<< Updated upstream
+=======
+>>>>>>> parent of 07464ec (cambio index imagenes)
+>>>>>>> Stashed changes
     margin: 1px;
     margin-top: 5px;
     display: flex;
     justify-content: flex-end;
     border: #333;
 }
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
+>>>>>>> parent of 07464ec (cambio index imagenes)
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 
 .programas{
     width: 300px;
@@ -44,9 +69,40 @@ nav {
 /*Menu*/
 
 .logo{
+<<<<<<< Updated upstream
     float: left;
     margin-right: 30px;
 
+=======
+<<<<<<< HEAD
+    width: 120px;
+    height: max-content;
+    padding-top: 40px;
+    margin-right: 290px;
+}
+
+.index{
+    margin-top: 50px;
+    
+}
+.menu {
+    background-color: white;
+    height: 100px;
+    margin-bottom:  30px;
+    list-style: none;
+    display: flex;
+    border: #333;
+<<<<<<< Updated upstream
+=======
+=======
+>>>>>>> origin/master
+=======
+    float: left;
+    margin-right: 30px;
+
+>>>>>>> parent of 07464ec (cambio index imagenes)
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 }
 
 .menu li {
@@ -57,12 +113,45 @@ nav {
 .menu li a {
     color: rgb(0, 0, 0);
     text-decoration: none;
+<<<<<<< Updated upstream
     padding: 20px;
+=======
+<<<<<<< Updated upstream
+    text-align: center;
+    margin-left: 30px;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    text-align: center;
+    margin-left: 30px;
+=======
+    padding: 40px;
+>>>>>>> origin/master
+=======
+    padding: 20px;
+>>>>>>> parent of 07464ec (cambio index imagenes)
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
     display: block;
 }
 
 .menu li a:hover {
     background-color: #7BB38C;
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+    height: max-content;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    height: max-content;
+=======
+
+>>>>>>> origin/master
+=======
+>>>>>>> parent of 07464ec (cambio index imagenes)
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 }
 
 li img{
