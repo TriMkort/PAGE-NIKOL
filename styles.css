@@ -1,8 +1,7 @@
 @charset "utf-8";
 * {box-sizing:border-box}
 
-
-
+/* Cabecera*/
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -21,76 +20,38 @@ nav {
     color: white;
 }
 
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-.menu {
-    background-color: white;
-    list-style: none;
-    padding: 10;
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> parent of 07464ec (cambio index imagenes)
-.menu {
-    background-color: white;
-    list-style: none;
-    padding: 0;
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
->>>>>>> parent of 07464ec (cambio index imagenes)
->>>>>>> Stashed changes
-=======
->>>>>>> parent of 07464ec (cambio index imagenes)
-    margin: 1px;
-    margin-top: 5px;
-    display: flex;
-    justify-content: flex-end;
-    border: #333;
-}
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
->>>>>>> origin/master
-=======
->>>>>>> parent of 07464ec (cambio index imagenes)
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-=======
->>>>>>> parent of 07464ec (cambio index imagenes)
 
-.programas{
-    width: 300px;
-    height: 300px;
-    display:block;
+/*Programas*/
+
+.columna2{
     text-align: center;
-    overflow-x: auto;
-    float: left;
+}
+.programas{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.programa{
+    flex: 1 1 100px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.programa img{
+    width: 100px;
+    height: auto;
 }
 
 /*Menu*/
 
 .logo{
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-    float: left;
-    margin-right: 30px;
-
-=======
-<<<<<<< HEAD
     width: 120px;
     height: max-content;
     padding-top: 40px;
     margin-right: 290px;
 }
-
 .index{
     margin-top: 50px;
     
@@ -102,155 +63,85 @@ nav {
     list-style: none;
     display: flex;
     border: #333;
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> origin/master
-=======
-    float: left;
-    margin-right: 30px;
-
->>>>>>> parent of 07464ec (cambio index imagenes)
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-=======
-    float: left;
-    margin-right: 30px;
-
->>>>>>> parent of 07464ec (cambio index imagenes)
 }
-
 .menu li {
     margin: 0 15px;
-    padding: 20px;
+    padding: 0%;
 }
-
 .menu li a {
     color: rgb(0, 0, 0);
+    width: 130px;
     text-decoration: none;
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-    padding: 20px;
-=======
-<<<<<<< Updated upstream
     text-align: center;
     margin-left: 30px;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    text-align: center;
-    margin-left: 30px;
-=======
-    padding: 40px;
->>>>>>> origin/master
-=======
-    padding: 20px;
->>>>>>> parent of 07464ec (cambio index imagenes)
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-=======
-    padding: 20px;
->>>>>>> parent of 07464ec (cambio index imagenes)
     display: block;
 }
-
 .menu li a:hover {
     background-color: #7BB38C;
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
-<<<<<<< Updated upstream
     height: max-content;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    height: max-content;
-=======
-
->>>>>>> origin/master
-=======
->>>>>>> parent of 07464ec (cambio index imagenes)
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-=======
->>>>>>> parent of 07464ec (cambio index imagenes)
 }
-
-li img{
-    width: 100%;
-    height: 50px;
-    
-}
-
 .despliegue_abajo{
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2);
 }
-
 .despliegue_abajo a{
     color:black;
-    padding: 12px 16px;
+    padding: 12px 1px;
     text-decoration: none;
     display: block;
     text-align: left;
 }
-
 .despliegue_abajo a:hover{
     background-color: #f1f1f1;
 }
-
 li:hover .despliegue_abajo{
     display: block;
 }
 
-/* index */
-
+/* Body index */
 
 .portada img {
     width: 100%;
-    height: 500px;
+    height: 470px;
 }
-
 .contenido {
-    display: flex;
+    display:flex;
+    padding: 20px;
+    height: 400px;
+}
+.columna {
+    width: 700px;
+    text-align: justify;
     padding: 20px;
 }
-
-.columna {
-    flex: 1;
-    padding: 0 20px;
-}
-
 .columna h1{
-    width: 700px;
+    width: 200px;
 }
 
+.columna2{
+    text-align: justify;
+}
+
+.columna3{
+    text-align: center;
+}
+.imagenes img{
+    width: 50%;
+    height: 100%;
+}
 .imagenes{
-    display:none;
-}
-
-.galeria {
     width: 550px;
-    position: relative;
+    margin-bottom: 20px;
+    text-align: center;
     height: 250px;
-    background-color: #D4B080;
+    background-color: #5a5753;
 }
-
-.galeria img {
-    margin-right: 10px;
-    width: 100%;
-    height: auto;
-}
-
 
 .cajapunto {
-    text-align:center;
+    display: none;
 }
-
 .punto {
     cursor: pointer;
     height: 20px;
@@ -260,21 +151,13 @@ li:hover .despliegue_abajo{
     border-radius: 50%;
     display: inline-block;
     }
-
-
 .clearfix{
     clear: both;
-}
-
-    
-img {
-    width:100%;
 }
 
 .activo {
     background-color: #717171;
 }
-
 
 /*footer */
 footer {
@@ -283,8 +166,6 @@ footer {
     text-align: center;
     padding: 15px;
 }
-
-
 .redes{
     width: 100px;
     height: 100px;
@@ -292,10 +173,12 @@ footer {
     float: left;
     
 }
-
-
 /* Contacto.html*/
 
+.contacto{
+    display: flex;
+    width: 100%;
+}
 #info{
     padding: 30px;
     height: 300px;
@@ -304,11 +187,10 @@ footer {
     display: inline-block;
 
 }
-
 aside{
     float: left;
     width: 45%;
-    background-color: #7BB38C;
+    background-color: white;
     min-height: 500px;
     padding-left: 10px;
     padding-right: 10px;
@@ -320,23 +202,40 @@ form{
     padding: 50px;
 }
 
-input{
-    margin-bottom: 20px;
-    width: 500px;
+.form-body{
+    background-color: #7BB38C;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    width: auto;
+    margin: 20px auto;
+    }
+    
+
+input[type="text"], input[type="email"], input[type="submit"] {
+    width: calc(100%); 
+    padding: 10px; 
+    margin: 5px 5px; 
+    border-radius: 20px; 
+    border: 1px solid #ccc; 
 }
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="submit"]:focus {
+    outline: none; 
+    border: 1px solid #00AA88; 
+}
+
 
 #descripcion{
     height: 300px;
-    text-align: top;
+    
 }
-
 #enviar{
     width: 150px;
     height: 29px;
     text-align: center;
     margin-left: 200px;
 }
-
 /*Diseño de Marca*/
 
 .enredos{
@@ -344,21 +243,16 @@ input{
     vertical-align: middle;
     margin-right: 10px;
 }
-
-
 .diseño1{
     width: 500px;
     height: 400px;
     float: left;
 }
-
-
 .diseño2{
     width: 500px;
     height: 400px;
     float: right;
 }
-
 .app {
     width:300px;
 }
